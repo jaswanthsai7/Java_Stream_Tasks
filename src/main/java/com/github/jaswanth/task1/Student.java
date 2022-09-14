@@ -24,4 +24,36 @@ public class Student {
         this.secondName = secondName;
         this.year = year;
     }
+
+    public byte getRollNumber() {
+        return rollNumber;
+    }
+
+    public void setRollNumber(byte rollNumber) {
+        this.rollNumber = rollNumber;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getSecondName() {
+        return secondName;
+    }
+
+    public void setSecondName(String secondName) {
+        this.secondName = secondName;
+    }
+
+    public byte getYear() {
+        return year;
+    }
+
+    public void setYear(byte year) {
+        this.year = year;
+    }
 }
