@@ -6,4 +6,5 @@
 package com.github.jaswanth.task1;
 
 public class UserName {
+    private String userName;
 }
