@@ -5,5 +5,18 @@
  */
 package com.github.jaswanth.task1;
 
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
 public class PortalCredentialsCreator {
+    public List<UserName> createListOfUserNames(List<Student> studentsList) {
+        List<UserName> userNames = new ArrayList<>();
+        Iterator<Student> iterator = studentsList.iterator();
+        while (iterator.hasNext()) {
+            if (!userNames.contains(iterator.next().getFirstName()))
+                userNames.add(new UserName(iterator.next().getFirstName()));
+        }
+        return userNames;
+    }
 }

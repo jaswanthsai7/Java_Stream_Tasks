@@ -7,4 +7,8 @@ package com.github.jaswanth.task1;
 
 public class UserName {
     private String userName;
+
+    public UserName(String userName) {
+        this.userName = userName;
+    }
 }
