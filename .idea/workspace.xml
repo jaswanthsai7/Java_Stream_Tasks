@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2baf614-ec16-4011-a85e-763b0a6e5086" name="Changes" comment="added Student.java class in task1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d2baf614-ec16-4011-a85e-763b0a6e5086" name="Changes" comment="created toString() method in Student.java class" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,12 +31,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -69,7 +67,42 @@
       <option name="project" value="LOCAL" />
       <updated>1663072991930</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="created fields in Student.java class">
+      <created>1663125134078</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663125134078</updated>
+    </task>
+    <task id="LOCAL-00005" summary="created no-args and parameterized constructor in Student.java class">
+      <created>1663125186450</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663125186450</updated>
+    </task>
+    <task id="LOCAL-00006" summary="created getter and setter methods in Student.java class">
+      <created>1663125241471</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663125241471</updated>
+    </task>
+    <task id="LOCAL-00007" summary="created equals and hashCode methods in Student.java class">
+      <created>1663125277734</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663125277734</updated>
+    </task>
+    <task id="LOCAL-00008" summary="created toString() method in Student.java class">
+      <created>1663125311143</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663125311143</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,7 +120,12 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="changed the source and target JDK version from 18 to 11" />
     <MESSAGE value="added Student.java class in task1" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Student.java class in task1" />
+    <MESSAGE value="created fields in Student.java class" />
+    <MESSAGE value="created no-args and parameterized constructor in Student.java class" />
+    <MESSAGE value="created getter and setter methods in Student.java class" />
+    <MESSAGE value="created equals and hashCode methods in Student.java class" />
+    <MESSAGE value="created toString() method in Student.java class" />
+    <option name="LAST_COMMIT_MESSAGE" value="created toString() method in Student.java class" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
