@@ -5,6 +5,8 @@
  */
 package com.github.jaswanth.task1;
 
+import java.util.Objects;
+
 public class Student {
     // store the rollNumber of a student, as a primitive byte type
     private byte rollNumber;
@@ -55,5 +57,18 @@ public class Student {
 
     public void setYear(byte year) {
         this.year = year;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Student)) return false;
+        Student student = (Student) o;
+        return getRollNumber() == student.getRollNumber() && getYear() == student.getYear() && Objects.equals(getFirstName(), student.getFirstName()) && Objects.equals(getSecondName(), student.getSecondName());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getRollNumber(), getFirstName(), getSecondName(), getYear());
     }
 }
