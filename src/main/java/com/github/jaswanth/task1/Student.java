@@ -14,4 +14,14 @@ public class Student {
     private String secondName;
     //store the current year of a student, as a primitive byte type value.
     private byte year;
+
+    public Student() {
+    }
+
+    public Student(byte rollNumber, String firstName, String secondName, byte year) {
+        this.rollNumber = rollNumber;
+        this.firstName = firstName;
+        this.secondName = secondName;
+        this.year = year;
+    }
 }
