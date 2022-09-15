@@ -8,6 +8,7 @@ package com.github.jaswanth.task1;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Random;
 
 public class PortalCredentialsCreator {
     public List<UserName> createListOfUserNames(List<Student> studentsList) {
@@ -21,6 +22,8 @@ public class PortalCredentialsCreator {
     }
 
     public List<PassWord> createListOfRandomPassWord(List<Student> studentList) {
-        return null;
+        List<PassWord> passWords = new ArrayList<>();
+        Random random = new Random();
+        return passWords;
     }
 }
