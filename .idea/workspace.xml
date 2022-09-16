@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d2baf614-ec16-4011-a85e-763b0a6e5086" name="Changes" comment="created createListOfRandomPassWord() method in PortalCredentialsCreator.java class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/jaswanth/task1/PortalCredentialsCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/jaswanth/task1/PortalCredentialsCreator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,7 +1,9 @@
 package com.github.jaswanth;
 
+import com.github.jaswanth.task1.PortalCredentialsCreator;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        PortalCredentialsCreator portalCredentialsCreator = new PortalCredentialsCreator();
     }
 }
