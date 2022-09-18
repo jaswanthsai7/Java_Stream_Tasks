@@ -7,5 +7,6 @@ public class Main {
         PortalCredentialsCreator portalCredentialsCreator = new PortalCredentialsCreator();
         portalCredentialsCreator.createListOfRandomPassWord(null);
         portalCredentialsCreator.createListOfUserNames(null);
+
     }
 }
